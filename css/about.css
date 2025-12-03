@@ -1,0 +1,46 @@
+body{
+    text-align: left;
+    font-size: 20px;
+    background-image: url(/Users/nethaniamarc/Downloads/two_pencils.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bio{
+    display: flex;
+
+    margin-left: 300px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    padding: 100px;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+p{
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+    color: #9C27B0;
+     overflow: hidden;
+     border: 1px solid gray;
+     background-color: white;
+   }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: center;
+    color: #9C27B0;
+    text-align: center;
+    padding: 24px 75px;
+    text-decoration: none;
+    font-size: 25px;
+  }
