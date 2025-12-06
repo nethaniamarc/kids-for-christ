@@ -25,7 +25,8 @@ body {
   padding: 10px 20px;
   background-color: white;
   text-align: center;
-  width: 900px;
+  width: 90%;
+  max-width: 900px;
   margin: auto;
 
 }
@@ -37,7 +38,8 @@ body {
   background-image: linear-gradient(to right, #F57C00,#EF5350);
   text-align: left;
   margin-top: 20px;
-  width: 900px;
+  width: 90%;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   z-index: 2;
@@ -46,7 +48,6 @@ body {
 h1{
   text-align: center;
   font-family: "Gochi Hand", cursive;
-  /*font-weight: 300;*/
   font-style: normal; 
   font-size: 120px;
   color: #ff8559;
@@ -63,6 +64,7 @@ h2{  font-weight: 400;
 /* Style the links inside the navigation bar */
 .topnav{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   transition: transform 0.3s ease-in-out;
   color: white;
