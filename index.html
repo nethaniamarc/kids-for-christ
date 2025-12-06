@@ -8,88 +8,97 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Kids for Christ</title>
+    <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Gochi+Hand&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Bigger colors, busier page
-            Image of kids????
-            add task bar with all the information like schedule, etc..... -->
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="html/lesson.html">Lessons</a>
-        <a href="html/schedule.html">Schedule</a>
-        <a href="html/about.html">About</a>
-        <a href="html/contact.html">Contact</a>
+    <ul class="topnav">
+        <li><a class="topnav-elem" href="#Lesson">Home</a></li>
+        <li><a class="topnav-elem" href="./html/lesson.html">Lessons</a></li>
+        <li><a class="topnav-elem" href="./html/schedule.html">Schedule</a></li>
+        <li><a class="topnav-elem" href="./html/about.html">About</a></li>
+        <li><a class="topnav-elem" href="./html/contact.html">Contact</a></li>
+    </ul>
+
+
+    <div class="floating-circles">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div> 
+        
+        <div class="circle"></div>
+        <div class="circle"></div>
     </div>
 
     <h1>Kids for CHRIST</h1>
 
-    <p>Welcome to the place where you may find lesson plans for the whole year!
-        Click on the lessons link to see available lessons.</p>
-
-    <h3 style="color: #9C27B0">Lessons:</h3>
-
-    <!-- TODO: maybe collapsible accoridian??? can use w3 -->
-    <h3 style="color: #9C27B0">Frequently Asked Questions</h3>
-    <ul style="list-style-type: none;">
-        <li>
-            <details>
-                <summary>What is Kids for Christ?</summary>
-                <p>Great question! It's an organization that started over 20 years
-                    at New Jerusalem Evangelical Church and seeks to teach children
-                    about the bible through lessons and games.</p>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>Is there an in-person meet-up?</summary>
-                <p>Absolutely! The lessons will be explored further in a weekly bible study at New Jerusalem Evangelical
-                    Baptist Church.
-                    No need to register, just show up!</p>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>Who are the lessons for?</summary>
-                <p>For children of all ages. They are divided in elementary, middle, and high school to fit the
-                    biblical knowledge that students may have at certain ages.
-                    But if the content is too easy or too hard, feel free to adjust by going up or down a school level.
-                </p>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>What if I fall behind on the lessons?</summary>
-                <p>That's Ok! We understand that life can be hectic. Feel free to work at your own pace.
-                    Note however, that the in-person meetings follow a weekly schedule.</p>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>How many lessons should I do in a week?</summary>
-                <p>1 lesson per week. This lesson plan was designed to be completed in 1 year.</p>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>How can I help my student with the lessons?</summary>
-                <p>Before beginning a lesson, read the scripture prior to prime your child for what they will learn.
-                    And, since each lesson should be completed in a week, take the week to read through (and maybe even
-                    re-read) challenging materials.</p>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>Where can I find the schedule for in-person meetings?</summary>
-                <p>You may find the schedule located in the Schedule section.
-                    It should project all future meetings for the school year.</p>
-            </details>
-        </li>
-    </ul>
+    <p id="welcome">Welcome to the place where you may find lesson plans for the whole year!
+        Click on the <a href="./html/lesson.html" id="link">lessons</a> link to see available lessons.</p>
+    <div id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <ul>
+            <li>
+                <details>
+                    <summary>What is Kids for Christ?</summary>
+                    <p>Great question! It's an organization that started over 20 years
+                        at New Jerusalem Evangelical Church and seeks to teach children
+                        about the bible through lessons and games.</p>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>Is there an in-person meet-up?</summary>
+                    <p>Absolutely! The lessons will be explored further in a weekly bible study at New Jerusalem Evangelical
+                        Baptist Church.
+                        No need to register, just show up!</p>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>Who are the lessons for?</summary>
+                    <p>For children of all ages. They are divided in elementary, middle, and high school to fit the
+                        biblical knowledge that students may have at certain ages.
+                        But if the content is too easy or too hard, feel free to adjust by going up or down a school level.
+                    </p>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>What if I fall behind on the lessons?</summary>
+                    <p>That's Ok! We understand that life can be hectic. Feel free to work at your own pace.
+                        Note however, that the in-person meetings follow a weekly schedule.</p>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>How many lessons should I do in a week?</summary>
+                    <p>1 lesson per week. This lesson plan was designed to be completed in 1 year.</p>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>How can I help my student with the lessons?</summary>
+                    <p>Before beginning a lesson, read the scripture prior to prime your child for what they will learn.
+                        And, since each lesson should be completed in a week, take the week to read through (and maybe even
+                        re-read) challenging materials.</p>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>Where can I find the schedule for in-person meetings?</summary>
+                    <p>You may find the schedule located in the <a href="./html/schedule.html" id="link">Schedule</a> section.
+                        It should project all future meetings for the school year.</p>
+                </details>
+            </li>
+        </ul>
+    </div>
 </body>
 
 </html>
